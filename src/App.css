@@ -1,0 +1,57 @@
+body {
+    background:#333;
+}
+
+.App {
+  text-align: center;
+  max-width:400px;
+  margin:0 auto;
+  padding:20px;
+}
+
+input[type=text] {
+    border: 0;
+    height: 30px;
+    outline: none;
+    width: 100%;
+    font-size: 28px;
+    color: #666;
+    letter-spacing: 2px;
+}
+
+.calculator-wrap {
+    background-color:#ccc;
+}
+
+.wrap {
+    padding:0;
+}
+
+.numbers button, .equals button {
+    width:33.33%;
+    outline:none;
+    border-radius:0;
+    float:left;
+}
+
+.wrap button:focus, .wrap button:active {
+    outline:0;
+    border-color:#2180ac;
+}
+
+.buttons .panel {
+    margin-bottom:0;
+}
+
+.buttons .panel-body {
+    padding: 0;
+    border-radius: 4px;
+    overflow: hidden;
+}
+
+.equations button {
+    outline:none;
+    border-radius:0;
+    width:100%;
+    float:left;
+}
